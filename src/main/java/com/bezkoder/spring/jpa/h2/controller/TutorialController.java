@@ -23,7 +23,7 @@ import com.bezkoder.spring.jpa.h2.model.Tutorial;
 import com.bezkoder.spring.jpa.h2.repository.TutorialRepository;
 
 //@CrossOrigin(origins = "http://174.27.59.174:8090")
-CrossOrigin("*")
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {
