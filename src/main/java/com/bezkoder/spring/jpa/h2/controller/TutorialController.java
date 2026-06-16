@@ -40,7 +40,7 @@ public class TutorialController {
 		
 	
 	
-	
+	// this is AI generated
 	@GetMapping("/tutorials")
 	public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required = false) String title) {
 	    try {
@@ -94,7 +94,7 @@ public class TutorialController {
 	
 	
 	
-	
+		// this is AI generated
 	
 	@GetMapping("/tutorials/{id}")
 	public ResponseEntity<Tutorial> getTutorialById(@PathVariable("id") long id) {
@@ -132,7 +132,7 @@ public class TutorialController {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
 	}
-
+	// this is AI generated
 	@DeleteMapping("/tutorials/{id}")
 	public ResponseEntity<HttpStatus> deleteTutorial(@PathVariable("id") long id) {
 		try {
